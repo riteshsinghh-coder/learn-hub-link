@@ -207,8 +207,8 @@ export const Room = ({
                 <video autoPlay width={800} height={400} ref={localVideoRef} />
             </Card>
             <span>    </span>   
-            <Card variant={"outlined"} style={{width:100, marginLeft:500}}>
-                <video autoPlay width={100}  height={50} ref={remoteVideoRef} />
+            <Card variant={"outlined"} style={{width:800}}>
+                <video autoPlay width={800}  height={400} ref={remoteVideoRef} />
             </Card>
             <Button variant="contained" color="success">Skip</Button>
         </div>
